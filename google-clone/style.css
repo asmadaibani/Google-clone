@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+   
+    /* background-color: blue; */
+    height: 60px;
+    width: 100vw;
+}
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+    width: 50%;
+    /* background-color: plum; */
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1em;
+}
+
+.dots {
+
+width: 1.5em;
+  }
+
+ .icon{
+    width: 2em;
+    border-radius: 50%;
+ }
+
+ .google-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .search-bar{
+    width: 44em;
+    margin-top: 2em;
+    height: 3.5em;
+    border-radius: 3em;
+    padding-left: 2em;
+    border: 1px solid #dfe1e5;
+   
+    
+ }
+ .search-div{
+   position: relative;
+ }
+ .search-div img{
+   position: absolute;
+      height: 24px;
+    width: 24px;
+    right: 15px;
+    top: 35px;
+ }
+ .search-div .voice-icon{
+   position: absolute;
+      height: 24px;
+    width: 24px;
+    right: 55px;
+    top: 35px;
+ }
+ .search-div .search{
+   position: absolute;
+      height: 15px;
+    width: 15px;
+   left: 15px;
+    top: 40px;
+ }
+
+ .under-search{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 2em;
+    margin-top: 2em;
+ }
+
+ .under-item{
+    background-color: #f8f9fa;
+    height: 2em;
+    width: 8em;
+    text-align: center;
+    padding-top: 0.2em;
+    color: #3c4043;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+
+ }
+
+ .under-items2{
+    display: flex;
+    gap: 1em;
+
+ }
+
+ .under-item2{
+    color:#4d5156;
+    
+ }
+
+ .links{
+    color: #1a0dab;
+ }
+ .under-item:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+    color: #202124;
+ }
+ .search-bar:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+ }
+
+ .location{
+ 
+  
+   padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    width: 100%;
+ }
+
+ .footer1,
+ .footer2,
+ .footer-flex{
+    display: flex;
+ }
+
+ .footer-flex{
+   
+
+    justify-content: space-between;
+    width:100%;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    padding: 0 20px;
+ }
+
+ .footer-item{
+    padding:15px;
+    color: #70757a;
+ }
+ .footer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+ }
